@@ -1,0 +1,107 @@
+html{ 
+    height: 100%;
+}
+body{
+    width:1000px; 
+    height:250px; 
+    background:-moz-linear-gradient(top, #000000 30%, #8393b3); 
+    background:-webkit-linear-gradient(top, #000000 60%, #8393b3);
+}
+.container {
+    position: absolute;
+    width: 25%;
+    border: 2px solid RED;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.info {
+    background-color: black;
+    color: green;
+    border: 2px solid red;
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text1 {
+    background-color: #04AA6D;
+
+    font-size: 16px;
+    padding: 12px 12px 12px 12px;
+}
+
+.text2 {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 12px 12px 12px 12px;
+}
+
+.text3 {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 12px 12px 12px 12px;
+}
+
+.sn {
+    float: right;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000;
+    overflow: hidden;
+    font-family: 'Varela Round';
+    font-size: 80%;
+
+  }
+  .topnav a:hover {
+    color: lightgrey;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: darkgrey;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, 
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: white;
+  }
