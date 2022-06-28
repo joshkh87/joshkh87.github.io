@@ -11977,7 +11977,7 @@ body {
 }
 
 .masthead {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: auto;
   min-height: 35rem;
