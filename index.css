@@ -80,7 +80,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 10;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -11970,7 +11970,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 50rem;
   padding: 15rem 0;
   background: linear-gradient(
       to bottom,
@@ -12011,7 +12011,7 @@ body {
 }
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 80vh;
     padding: 0;
   }
   .masthead h1,
@@ -12136,4 +12136,37 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.main_container {
+  height: 46px;
+  width: auto;
+  padding: 3px;
+  margin: 2px;
+  max-width: 300px;
+  background-color: #555555;
+  align-content: center;
+}
+.container_inner {
+  height: auto;
+  border: none;
+  background-color: #555555;
+  max-width: 290px;
+  vertical-align: center;
+  padding-top: 12px;
+  padding-left: 10px;
+  align-content: center;
+}
+.live_cnt {
+  width: 30px;
+  height: 30px;
+  background-color: #888888;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  line-height: 20px;
+  padding: 3px;
+  margin: 1.5px;
+  font-family: verdana;
+  vertical-align: center;
 }
