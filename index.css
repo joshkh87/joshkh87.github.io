@@ -12157,3 +12157,7 @@ body {
   padding-left: 10px;
   align-content: center;
 }
+h1.projectsh1 {
+  color: red;
+  text-align: center;
+}
