@@ -12039,9 +12039,18 @@ body {
 .about-section p {
   margin-bottom: 5rem;
 }
-
+.myprojects{
+  text-align: center;
+  color: red;
+}
+.myprojects-h3{
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 12px;
+}
 .projects-section {
-  padding: 10rem 0;
+  padding: 1rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -12156,8 +12165,4 @@ body {
   padding-top: 12px;
   padding-left: 10px;
   align-content: center;
-}
-h1.projectsh1 {
-  color: red;
-  text-align: center;
 }
