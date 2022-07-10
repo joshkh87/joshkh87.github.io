@@ -11965,7 +11965,6 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
 .masthead {
   position: relative;
   width: 100%;
@@ -12028,7 +12027,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 2rem;
   background: linear-gradient(
     to bottom,
     #000 0%,
